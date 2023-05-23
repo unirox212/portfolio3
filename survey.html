@@ -1,0 +1,411 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Bootstrap/css/surveystyle.css">
+  <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+
+<body>
+  <div class="container-fluid px-0">
+    <div class="mx-0 mx-sm-auto">
+      <div class="card1">
+        <div class="card-header bg-success">
+          <nav class="navbar navbar-expand-lg fixed-top text-uppercase">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <i class="fa-solid fa-bars"></i>
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                  <li class="nav-item"><a class="nav-link " href="#"><i class="fa-solid fa-house"></i>Home</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="periodic.html"><i class="fa-solid fa-book"></i>Activity
+                      1</a></li>
+                  <li class="nav-item"><a class="nav-link" href="practice.html"><i class="fa-solid fa-book"></i>Activity
+                      3</a></li>
+                  <li class="nav-item"><a class="nav-link " href="index.html"><i class="fa-sharp fa-solid fa-rotate-left"></i>Back</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h5 class="card-title text-white mt-2 text-center">ChRoKe Fitness Gym</h5>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <i class="fa-solid fa-dumbbell fa-4x mb-3 text-success"></i>
+            <p class="query">ChRoKe Survey Form</p>
+            <p>For those gym rat who always go to gym.<strong> Fill the form.</strong></p>
+          </div>
+          <hr />
+          <form class="px-1">
+            <p class="query">Name:</p>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+          </form>
+          <form class="px-1">
+            <p class="query">Address:</p>
+            <div class="row">
+              <div class="col pb-3">
+                <input type="text" class="form-control" placeholder="Street Address">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col pb-3">
+                <input type="text" class="form-control" placeholder="Municipality">
+              </div>
+              <div class="col pb-3">
+                <input type="text" class="form-control" placeholder="City">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Region">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Postal/Zip Code">
+              </div>
+            </div>
+          </form>
+          <form class="px-1" action="">
+
+            <p class="query">Gender:</p>
+            <div class="form-check mb-1 form-check-inline">
+              <input class="form-check-input" type="radio" name="Gender" id="gender1" />
+              <label class="form-check-label" for="gender1">
+                Male
+              </label>
+            </div>
+            <div class="form-check mb-1 form-check-inline">
+              <input class="form-check-input" type="radio" name="Gender" id="gender2" />
+              <label class="form-check-label" for="gender2">
+                Female
+              </label><br>
+            </div>
+          </form>
+          <form class="px-1" action="">
+
+            <p class="query">How old are you?</p>
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="Old" id="old" />
+              <label class="form-check-label" for="old">Under 18</label>
+            </div>
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="Old" id="old" />
+              <label class="form-check-label" for="old">18 - 25</label><br>
+            </div>
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="Old" id="old" />
+              <label class="form-check-label" for="old">25 - 45</label><br>
+            </div>
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="Old" id="old" />
+              <label class="form-check-label" for="old">45 or more</label><br>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">What is your general health like?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health1" />
+              <label class="form-check-label" for="health1">
+                Above Average
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health2" />
+              <label class="form-check-label" for="health2">
+                Average
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Health" id="health3" />
+              <label class="form-check-label" for="health3">
+                Below Average
+              </label>
+            </div>
+          </form>
+
+          <form class="px-1" action="">
+            <p class="query">Why do you go to gym?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym1" />
+              <label class="form-check-label" for="gym1">
+                Lifestyle
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym2" />
+              <label class="form-check-label" for="gym2">
+                Rehabilition
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym3" />
+              <label class="form-check-label" for="gym3">
+                Strength Training
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym4" />
+              <label class="form-check-label" for="gym4">
+                Weight Loss
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym5" />
+              <label class="form-check-label" for="gym5">
+                Health Improvement
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="gym6" />
+              <label class="form-check-label" for="gym6">
+                Social Environment
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">How often do you go to the gym?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often1" />
+              <label class="form-check-label" for="often1">
+                2-3 times per week
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often2" />
+              <label class="form-check-label" for="often2">
+                4-5 times per week
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Often" id="often3" />
+              <label class="form-check-label" for="often3">
+                6-7 times per week
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">What supplement do you usually take?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement1" />
+              <label class="form-check-label" for="supplement1">
+                Creatine
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement2" />
+              <label class="form-check-label" for="supplement2">
+                Protein Supplements
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement3" />
+              <label class="form-check-label" for="supplement3">
+                Weight Gainers
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement4" />
+              <label class="form-check-label" for="supplement4">
+                Beta-alanine
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="supplement5" />
+              <label class="form-check-label" for="supplement5">
+                Branched-Chain Amino Acids
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">What type of split are you using?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Split" id="split1" />
+              <label class="form-check-label" for="split1">
+                Bro Split
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Split" id="split2" />
+              <label class="form-check-label" for="split2">
+                Upper/Lower Split
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Split" id="split3" />
+              <label class="form-check-label" for="split3">
+                Full Body
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Split" id="split4" />
+              <label class="form-check-label" for="split4">
+                Science Based Split
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">Have you ever tried using steroids?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Steroids" id="steroids1" />
+              <label class="form-check-label" for="steroids1">
+                Yes
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Steroids" id="steroids2" />
+              <label class="form-check-label" for="steroids2">
+                No
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">What time do you normally prefer to attend the gym?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Time" id="time1" />
+              <label class="form-check-label" for="time1">
+                Morning
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Time" id="time2" />
+              <label class="form-check-label" for="time2">
+                Afternoon
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Time" id="time3" />
+              <label class="form-check-label" for="time3">
+                Night
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">Do you skip leg day?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Skip" id="skip1" />
+              <label class="form-check-label" for="skip1">
+                Yes
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Skip" id="skip2" />
+              <label class="form-check-label" for="skip2">
+                No
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">What muscle do you like to hit the most?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Hit" id="hit1" />
+              <label class="form-check-label" for="hit1">
+                Chest & Tricep
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Hit" id="hit2" />
+              <label class="form-check-label" for="hit2">
+                Back & Bicep
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Hit" id="hit3" />
+              <label class="form-check-label" for="hit3">
+                Shoulder & Legs
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">What are you?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Type" id="type1" />
+              <label class="form-check-label" for="type1">
+                Bodybuilder
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Type" id="type2" />
+              <label class="form-check-label" for="type2">
+                Powerlifter
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="Type" id="type3" />
+              <label class="form-check-label" for="type3">
+                Crossfitter
+              </label>
+            </div>
+          </form>
+          <form class="px-1" action="">
+            <p class="query">Which of the following would you use if made available in the gym?</p>
+
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="available1" />
+              <label class="form-check-label" for="available1">
+                Massage
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="available2" />
+              <label class="form-check-label" for="available2">
+                Gym Membership
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="available3" />
+              <label class="form-check-label" for="available3">
+                Personal Trainer
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="available4" />
+              <label class="form-check-label" for="available4">
+                Tanning
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" e id="available5" />
+              <label class="form-check-label" for="available5">
+                Drink/Snack Bar
+              </label>
+            </div>
+          </form>
+        </div>
+
+        <div class="card-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

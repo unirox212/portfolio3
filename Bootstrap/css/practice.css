@@ -1,0 +1,38 @@
+
+.h1, .h2, .h3, .h4, .h5, .h6{
+    color: rgb(204, 204, 204);
+    font-weight: 700;
+}
+.navbar {
+    background-color: rgba(77, 77, 77, 0.459);
+}
+.navbar .nav-link {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: arial;
+    color: rgb(204, 204, 204);
+}
+.navbar .nav-link:hover {
+    color: rgb(252, 141, 141);
+}
+.navbar .nav-link.active {
+    color: rgb(252, 141, 141);
+}
+.navbar-toggler{
+    color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon {
+    color: rgb(204, 204, 204);
+    padding-top: 15%;
+    font-size: 23px;
+}
+.navv1 {
+    background-color: red;
+}
+.section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid rgb(110, 110, 110);
+}

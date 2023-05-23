@@ -1,0 +1,114 @@
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.h1, .h2, .h3, .h4, .h5, .h6{
+    color: rgb(204, 204, 204);
+    font-weight: 700;
+}
+.navbar {
+    background-color: rgba(77, 77, 77, 0.459);
+}
+.navbar .nav-link {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: arial;
+    color: rgb(204, 204, 204);
+}
+.navbar .nav-link:hover {
+    color: rgb(252, 141, 141);
+}
+.navbar .nav-link.active {
+    color: rgb(252, 141, 141);
+}
+.navbar-toggler{
+    color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon {
+    color: rgb(204, 204, 204);
+    padding-top: 15%;
+    font-size: 23px;
+}
+.section-aboutus {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/aboutus2.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.section-home {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.section-home h1, h5 {
+    font-size: 4.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+}
+.section-home p{
+    font-family: "Poppins", sans-serif;
+}
+.section-home h3 {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.button-link {
+    padding: 10px 20px;
+    background: rgb(119,201,212);
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5%;
+}
+.section-contact {
+    background: rgb(119,201,212);
+    background: linear-gradient(90deg, rgba(119,201,212,1) 0%, rgba(87,188,144,1) 83%);
+    border-bottom: 2px solid rgb(76, 156, 167);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.card-title, .card-text {
+    color: black;
+}
+.card-body {
+    background-color: rgb(175, 174, 174);
+    box-shadow: 0 20 20 black;
+}
+.card {
+    width: 18rem;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+.shadow-effect {
+    transition: all 0.5s;
+}
+.shadow-effect:hover {
+    box-shadow: 0 0 0 5px rgb(175, 174, 174);
+}
+.bg-color {
+    background-color: rgb(109, 109, 109);
+}
+.roundedd {
+    border-radius: 2%;
+}
+.d-block {
+    width: 100%;
+}
+.carousel-caption {
+    top: 10%;
+}
+.form-group:hover{
+    transform: scale(1.08);
+    transition: .4s;
+}
