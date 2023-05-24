@@ -56,15 +56,22 @@ html, body {
 }
 .button-link {
     padding: 10px 20px;
-    background: rgb(119,201,212);
-    color: black;
+    border: 2px solid white;
+    color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-decoration: none;
     border-radius: 5%;
 }
 /* About Us Area */
-
+.section-aboutus {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
 .aboutus-area {
     padding: 80px 0;
 }
@@ -114,6 +121,12 @@ html, body {
     font-weight: 700;
     font-size: 30px;
     font-family: "Poppins", sans-serif;
+}
+.main-text h6{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -15;
 }
 .main-text p{
     font-size: 18px;
@@ -174,42 +187,64 @@ html, body {
 .card-activity {
   background: -webkit-linear-gradient(#394ae2, #37ddb4);
 }
-.main-text {
+.main-text1 {
     padding: 30px 0;
     text-align: center;
 }
-.main-text h2{
+.main-text1 h2{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 27px;
     margin: 0 0 20px;
     font-family: "Poppins", sans-serif;
+    color: #fff;
 }
-.main-text h1{
+.main-text1 h1{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
     font-family: "Poppins", sans-serif;
 }
-.main-text p{
+.main-text1 p{
     font-size: 18px;
     padding: 0 35px;
 }
 /* End Activities Area */
 
-.bg-color {
-    background-color: rgb(109, 109, 109);
+/* Gallery Area */
+.section-gallery {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
-.roundedd {
-    border-radius: 2%;
+.section-gallery h1, h5 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.section-gallery p{
+    font-family: "Poppins", sans-serif;
+}
+.section-gallery h3 {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }
 .d-block {
     width: 100%;
 }
-.carousel-caption {
-    top: 10%;
+figure .blockquote-footer {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
 }
+/* Contact Us Area */
 .form-group:hover{
     transform: scale(1.08);
     transition: .4s;
 }
+/* End Contact Us Area */
