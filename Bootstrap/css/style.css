@@ -29,14 +29,6 @@ html, body {
     padding-top: 15%;
     font-size: 23px;
 }
-.section-aboutus {
-    background: rgb(103,174,202);
-    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/aboutus2.jpg);
-    background-size: cover;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
 .section-home {
     background: rgb(103,174,202);
     background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home.jpg);
@@ -68,6 +60,71 @@ html, body {
     text-decoration: none;
     border-radius: 5%;
 }
+/* About Us Area */
+
+.aboutus-area {
+    padding: 80px 0;
+}
+.card-about {
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 30px;
+}
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+.card-about:hover .img2 img{
+    border-color: darkcyan;
+    transition: .4s;
+}
+.card-about {
+  background: -webkit-linear-gradient(#394ae2, #37ddb4);
+}
+.main-text {
+    padding: 30px 0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 0 0 20px;
+    font-family: "Poppins", sans-serif;;
+}
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i{
+    font-size: 25px;
+    color: darkcyan;
+    padding: 0 10px;
+}
+.socials i:hover{
+    transform: scale(1.2);
+    transition: .7s;
+    color: green;
+}
+/* End About Us */
 .section-contact {
     background: rgb(119,201,212);
     background: linear-gradient(90deg, rgba(119,201,212,1) 0%, rgba(87,188,144,1) 83%);
