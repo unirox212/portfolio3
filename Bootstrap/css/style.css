@@ -38,7 +38,7 @@ html, body {
     color: white;
 }
 .section-home h1, h5 {
-    font-size: 4.5rem;
+    font-size: 4.7rem;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     line-height: 100%;
@@ -50,6 +50,9 @@ html, body {
     font-size: 3rem;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
+}
+.welcome-text {
+    margin-top: 20%;
 }
 .button-link {
     padding: 10px 20px;
@@ -104,19 +107,26 @@ html, body {
     font-weight: 700;
     font-size: 27px;
     margin: 0 0 20px;
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
+}
+.main-text h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
 }
 .main-text p{
-    font-size: 16px;
+    font-size: 18px;
     padding: 0 35px;
 }
 .socials{
     text-align: center;
     padding-bottom: 20px;
+    
 }
 .socials i{
     font-size: 25px;
-    color: darkcyan;
+    color: black;
     padding: 0 10px;
 }
 .socials i:hover{
@@ -133,26 +143,60 @@ html, body {
     text-align: center;
     color: white;
 }
-.card-title, .card-text {
-    color: black;
+/* Activities Area */
+.card-activity {
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 30px;
 }
-.card-body {
-    background-color: rgb(175, 174, 174);
-    box-shadow: 0 20 20 black;
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
 }
-.card {
-    width: 18rem;
+.img2 img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
 }
-.card:hover {
-    transform: scale(1.1);
+.card-activity:hover .img2 img{
+    border-color: darkcyan;
     transition: .4s;
 }
-.shadow-effect {
-    transition: all 0.5s;
+.card-activity {
+  background: -webkit-linear-gradient(#394ae2, #37ddb4);
 }
-.shadow-effect:hover {
-    box-shadow: 0 0 0 5px rgb(175, 174, 174);
+.main-text {
+    padding: 30px 0;
+    text-align: center;
 }
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 0 0 20px;
+    font-family: "Poppins", sans-serif;
+}
+.main-text h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.main-text p{
+    font-size: 18px;
+    padding: 0 35px;
+}
+/* End Activities Area */
+
 .bg-color {
     background-color: rgb(109, 109, 109);
 }
