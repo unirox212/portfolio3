@@ -246,7 +246,7 @@ html, body {
 }
 .bg-survey{
     background: rgb(119,201,212);
-    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgb(23, 24, 24) 83%), url(../images/home.jpg);
+    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgb(23, 24, 24) 83%);
 }
 /* End Activities Area */
 
