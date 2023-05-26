@@ -27,17 +27,17 @@
             </li>
             <li class="nav-item"><a class="nav-link px-lg-3" href="#about"><i
                   class="fa-solid fa-handshake-simple"></i>About</a></li>
-            <li class="nav-item"><a class="nav-link px-lg-3" href="#contact"><i class="fa-solid fa-book"></i>Align</a>
+            <li class="nav-item"><a class="nav-link px-lg-3" href="#align"><i class="fa-solid fa-book"></i>Align</a>
             </li>
             <!-- Navbar Dropdown -->
             <li class="nav-item dropdown text-white">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 Back to
               </a>
-              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                <a class="navv dropdown-item text-white fw-bold text-center" href="index.html">Home</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="navv dropdown-item text-white fw-bold text-center" href="index.html">Portfolio</a>
                 <a class="navv dropdown-item text-white fw-bold text-center" href="periodic.html">Activity 1</a>
-                <a class="navv dropdown-item text-white fw-bold text-center" href="survey.html">Activity 2</a>
               </div>
             </li>
             <!-- End Navbar Dropdown -->
@@ -50,37 +50,43 @@
 
   <!-- Home Section -->
 
-  <section id="index" class="section bg-dark">
-    <div class="container-fluid mt-3 mb-3">
-      <div id="practice" class="carousel slide" data-bs-ride="carousel">
+  <section id="index" class="section-home">
+    <div class="container" data-aos="fade-right" data-aos-delay="400">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="slideshow">
+            <!-- Slideshow -->
+            <div id="slide" class="carousel slide" data-bs-ride="carousel">
 
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#practice" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#practice" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#practice" data-bs-slide-to="2"></button>
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="2"></button>
+              </div>
+
+              <!-- The slideshow/carousel -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/activity3/conanbg1.jpg" alt="" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/activity3/conanbg2.jpg" alt="" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/activity3/conanbg1.jpg" alt="" class="d-block">
+                </div>
+              </div>
+
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next bg-dark" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
         </div>
-
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/activity3/conanbg1.jpg" alt="Anime Detective Conan" class="w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="images/activity3/conanbg2.jpg" alt="Anime Detective Conan" class="w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="images/activity3/conanbg1.jpg" alt="Anime Detective Conan" class="w-100">
-          </div>
-        </div>
-
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#practice" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#practice" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
       </div>
     </div>
   </section>
@@ -88,28 +94,44 @@
 
   <!-- About Us -->
 
-  <section id="about" class="section bg-dark">
+  <section id="about" class="section-about">
     <div class="container-fluid">
-      <div class="row gy-3 mt-3 mb-3">
+      <div class="row">
         <div class="col-lg-3 col-6">
-          <img src="images/activity3/conan.jpg" class="rounded" alt="Cinque Terre" style="width: 200; height: 200;">
-          <h1>Detective Conan</h1>
-          <p>A High School Detective Shinichi Kudo</p>
+          <div class="conan-img">
+            <img src="images/activity3/conan.jpg" class="w-100" alt="Cinque Terre">
+            <h1>Detective Conan</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui impedit quaerat commodi, officiis alias, in
+              deleniti officia quam aliquid sequi voluptate nisi sunt accusantium. Doloremque rerum eaque inventore
+              corrupti placeat.</p>
+          </div>
         </div>
         <div class="col-lg-3 col-6">
-          <img src="images/activity3/conan.jpg" class="rounded" alt="Cinque Terre" style="width: 200; height: 200;">
-          <h1>Detective Conan</h1>
-          <p>A High School Detective Shinichi Kudo</p>
+          <div class="conan-img">
+            <img src="images/activity3/conan.jpg" class="w-100" alt="Cinque Terre">
+            <h1>Detective Conan</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti culpa voluptatum officia, facilis
+              incidunt dolores iste assumenda asperiores earum maiores aspernatur natus corporis provident, eaque
+              quibusdam nam modi reiciendis odio.</p>
+          </div>
         </div>
         <div class="col-lg-3 col-6">
-          <img src="images/activity3/conan.jpg" class="rounded" alt="Cinque Terre" style="width: 200; height: 200;">
-          <h1>Detective Conan</h1>
-          <p>A High School Detective Shinichi Kudo</p>
+          <div class="conan-img">
+            <img src="images/activity3/conan.jpg" class="w-100" alt="Cinque Terre">
+            <h1>Detective Conan</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nemo quia et mollitia consectetur,
+              totam enim nobis explicabo minus non sequi aperiam numquam aliquid eligendi fugiat neque omnis, nostrum
+              modi.</p>
+          </div>
         </div>
         <div class="col-lg-3 col-6">
-          <img src="images/activity3/conan.jpg" class="rounded" alt="Cinque Terre" style="width: 200; height: 200;">
-          <h1>Detective Conan</h1>
-          <p>A High School Detective Shinichi Kudo</p>
+          <div class="conan-img">
+            <img src="images/activity3/conan.jpg" class="w-100" alt="Cinque Terre">
+            <h1>Detective Conan</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident esse sunt facere, laudantium ad
+              dolorum quasi ducimus architecto ratione voluptatum quibusdam optio possimus ex id at, assumenda
+              aspernatur a nam?</p>
+          </div>
         </div>
       </div>
     </div>
@@ -117,19 +139,32 @@
 
   <!-- End About Us -->
 
-  <!-- Contact Us -->
-  <section id="contact" class="section bg-dark">
+  <!-- Align -->
+  <section id="align" class="section-align">
     <div class="container">
-      <div class="row mt-3 mb-3">
-        <div class="col-lg-3 col-12">
-          <img src="images/activity3/conanbg.jpg" alt="" class="w-100">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="align-img">
+            <img src="images/activity3/conanbg.jpg" alt="" class="w-100">
+          </div>
         </div>
-        <div class="col-lg-6 col-12">
-          <h2>Aligning images</h2>
-          <p>Use the float classes to float the image to the left or to the right:</p>
+        <div class="col-lg-6">
+          <div class="align-text">
+            <h1>Detective Conan</h1>
+            <p>Case Closed, also known as Detective Conan (Japanese: 名探偵コナン, Hepburn: Meitantei Konan, lit. "Great
+              Detective Conan"), is a Japanese detective manga series written and illustrated by Gosho Aoyama. It has
+              been serialized in Shogakukan's shōnen manga magazine Weekly Shōnen Sunday since January 1994, with its
+              chapters collected in 103 tankōbon volumes as of April 2023. Due to legal problems with the name Detective
+              Conan, the English language releases from Funimation and Viz Media were renamed to Case Closed. The story
+              follows the high school detective Shinichi Kudo, whose body was transformed into that of an elementary
+              school-age child while investigating a mysterious organization and generally solved a multitude of cases
+              by impersonating his childhood best friend's father and various other characters.</p>
+          </div>
         </div>
-        <div class="col-lg-3 col-12">
-          <img src="images/activity3/conanbg.jpg" alt="" class="w-100">
+        <div class="col-lg-3">
+          <div class="align-img">
+            <img src="images/activity3/conanbg.jpg" alt="" class="w-100">
+          </div>
         </div>
       </div>
     </div>
