@@ -4,7 +4,8 @@
     font-weight: 700;
 }
 .navbar {
-    background-color: rgba(77, 77, 77, 0.459);
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/activity3bg/navbar.jpg);
 }
 .navbar .nav-link {
     font-size: 17px;
@@ -29,10 +30,98 @@
 .navv1 {
     background-color: red;
 }
-.section {
-    display: flex;
+.dropdown-menu{
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/activity3bg/navbar.jpg);
+    background-size: cover;
+}
+/* Home Section */
+
+.section-home {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/activity3bg/homebg.jpg);
+    background-size: cover;
     align-items: center;
     text-align: center;
     color: white;
-    border-bottom: 2px solid rgb(110, 110, 110);
 }
+.section-home h1, h5 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.section-home p{
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+}
+.section-home h3 {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.slideshow {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.d-block {
+    width: 100%;
+}
+
+/* End Home Section */
+
+/* About Section */
+
+.section-about {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/activity3bg/homebg.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.section-about h1, h5 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.section-about p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: rgb(20, 20, 20);
+    text-align: justify;
+}
+.conan-img {
+    margin-top: 20%;
+}
+
+/* End About Section */
+
+/* Alignment Section */
+
+.section-align {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/activity3bg/homebg.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.section-align h1{
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.section-align p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: rgb(20, 20, 20);
+    text-align: justify;
+}
+.align-img {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.align-text {
+    margin-top: 5%;
+}
+/* End Alignment Section */
