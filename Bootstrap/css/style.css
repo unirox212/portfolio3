@@ -151,13 +151,7 @@ html, body {
     color: white;
 }
 /* End About Us */
-.section-contact {
-    background: rgb(119,201,212);
-    background: linear-gradient(90deg, rgba(119,201,212,1) 0%, rgba(87,188,144,1) 83%);
-    color: white;
-    height: 100vh;
-    height: 100%;
-}
+
 /* Activities Area */
 .card-activity {
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
@@ -305,7 +299,13 @@ figure .blockquote-footer {
     font-weight: 700;
 }
 .form-group:hover{
-    transform: scale(1.08);
+    transform: scale(1.03);
     transition: .4s;
+}
+.card-contact {
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 2%;
+    margin-top: 20%;
 }
 /* End Contact Us Area */
