@@ -13,7 +13,7 @@ html, body {
 .navbar .nav-link {
     font-size: 17px;
     font-weight: 700;
-    font-family: arial;
+    font-family: "Poppins", sans-serif;
     color: rgb(204, 204, 204);
 }
 .navbar .nav-link:hover {
