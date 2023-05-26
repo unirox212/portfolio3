@@ -12,43 +12,44 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg fixed-top text-uppercase">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item"><a class="nav-link " href="#"><i class="fa-solid fa-house"></i>Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="periodic.html"><i class="fa-solid fa-book"></i>Activity
+              1</a></li>
+          <li class="nav-item"><a class="nav-link" href="practice.html"><i class="fa-solid fa-book"></i>Activity
+              3</a></li>
+          <li class="nav-item"><a class="nav-link " href="index.html #activity"><i class="fa-sharp fa-solid fa-rotate-left"></i>Back</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="form mt-5">
   <div class="container-fluid px-0">
     <div class="mx-0 mx-sm-auto">
       <div class="card1">
-        <div class="card-header bg-success">
-          <nav class="navbar navbar-expand-lg fixed-top text-uppercase">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                  <i class="fa-solid fa-bars"></i>
-                </span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto text-center">
-                  <li class="nav-item"><a class="nav-link " href="#"><i class="fa-solid fa-house"></i>Home</a>
-                  </li>
-                  <li class="nav-item"><a class="nav-link" href="periodic.html"><i class="fa-solid fa-book"></i>Activity
-                      1</a></li>
-                  <li class="nav-item"><a class="nav-link" href="practice.html"><i class="fa-solid fa-book"></i>Activity
-                      3</a></li>
-                  <li class="nav-item"><a class="nav-link " href="index.html"><i class="fa-sharp fa-solid fa-rotate-left"></i>Back</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <h5 class="card-title text-white mt-2 text-center">ChRoKe Fitness Gym</h5>
+        <div class="modal-header">
+          <h5 class="survey-text w-100">CRK Fitness Gym</h5>
         </div>
         <div class="modal-body">
           <div class="text-center">
             <i class="fa-solid fa-dumbbell fa-4x mb-3 text-success"></i>
-            <p class="query">ChRoKe Survey Form</p>
+            <p class="query">CRK Survey Form</p>
             <p>For those gym rat who always go to gym.<strong> Fill the form.</strong></p>
           </div>
           <hr />
           <form class="px-1">
-            <p class="query">Name:</p>
+            <p class="query text-start">Name:</p>
             <div class="row">
               <div class="col">
                 <input type="text" class="form-control" placeholder="First name">
@@ -59,7 +60,7 @@
             </div>
           </form>
           <form class="px-1">
-            <p class="query">Address:</p>
+            <p class="query text-start">Address:</p>
             <div class="row">
               <div class="col pb-3">
                 <input type="text" class="form-control" placeholder="Street Address">
@@ -83,23 +84,24 @@
             </div>
           </form>
           <form class="px-1" action="">
-
+            <div class="text-start">
             <p class="query">Gender:</p>
-            <div class="form-check mb-1 form-check-inline">
+            <div class="form-check mb-1 ">
               <input class="form-check-input" type="radio" name="Gender" id="gender1" />
               <label class="form-check-label" for="gender1">
                 Male
               </label>
             </div>
-            <div class="form-check mb-1 form-check-inline">
+            <div class="form-check mb-1">
               <input class="form-check-input" type="radio" name="Gender" id="gender2" />
               <label class="form-check-label" for="gender2">
                 Female
               </label><br>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
-
+            <div class="text-start">
             <p class="query">How old are you?</p>
             <div class="form-check mb-1">
               <input class="form-check-input" type="radio" name="Old" id="old" />
@@ -117,8 +119,10 @@
               <input class="form-check-input" type="radio" name="Old" id="old" />
               <label class="form-check-label" for="old">45 or more</label><br>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+          <div class="text-start">
             <p class="query">What is your general health like?</p>
 
             <div class="form-check mb-2">
@@ -139,9 +143,11 @@
                 Below Average
               </label>
             </div>
+          </div>
           </form>
 
           <form class="px-1" action="">
+          <div class="text-start">
             <p class="query">Why do you go to gym?</p>
 
             <div class="form-check mb-2">
@@ -150,6 +156,7 @@
                 Lifestyle
               </label>
             </div>
+          
             <div class="form-check mb-2">
               <input class="form-check-input" type="checkbox" id="gym2" />
               <label class="form-check-label" for="gym2">
@@ -180,8 +187,10 @@
                 Social Environment
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">How often do you go to the gym?</p>
 
             <div class="form-check mb-2">
@@ -202,8 +211,10 @@
                 6-7 times per week
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">What supplement do you usually take?</p>
 
             <div class="form-check mb-2">
@@ -236,8 +247,10 @@
                 Branched-Chain Amino Acids
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">What type of split are you using?</p>
 
             <div class="form-check mb-2">
@@ -264,8 +277,10 @@
                 Science Based Split
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">Have you ever tried using steroids?</p>
 
             <div class="form-check mb-2">
@@ -280,8 +295,10 @@
                 No
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">What time do you normally prefer to attend the gym?</p>
 
             <div class="form-check mb-2">
@@ -302,8 +319,10 @@
                 Night
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">Do you skip leg day?</p>
 
             <div class="form-check mb-2">
@@ -318,8 +337,10 @@
                 No
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">What muscle do you like to hit the most?</p>
 
             <div class="form-check mb-2">
@@ -340,8 +361,10 @@
                 Shoulder & Legs
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">What are you?</p>
 
             <div class="form-check mb-2">
@@ -362,8 +385,10 @@
                 Crossfitter
               </label>
             </div>
+          </div>
           </form>
           <form class="px-1" action="">
+            <div class="text-start">
             <p class="query">Which of the following would you use if made available in the gym?</p>
 
             <div class="form-check mb-2">
@@ -396,15 +421,19 @@
                 Drink/Snack Bar
               </label>
             </div>
+          </div>
           </form>
         </div>
 
         <div class="card-footer">
+          <div class="text-start">
           <button type="button" class="btn btn-primary">Submit</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
+</div>
   <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
