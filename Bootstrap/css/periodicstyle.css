@@ -1,6 +1,37 @@
 body {
     background: rgb(64, 147, 180);
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/activity3bg/navbar.jpg);
+    position: fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #04AA6D;
+}
 .table1 {
     width: 100%;
 }
