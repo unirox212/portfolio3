@@ -76,9 +76,6 @@ html, body {
     text-align: center;
     color: white;
 }
-.aboutus-area {
-    padding: 80px 0;
-}
 .card-about {
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     overflow: hidden;
@@ -102,8 +99,13 @@ html, body {
     border: 7px solid #fff;
     margin-top: -80px;
 }
+.card-about:hover .img1 img{
+    transform: scale(1.1);
+    transition: .4s;
+}
 .card-about:hover .img2 img{
     border-color: rgb(103,174,202);
+    transform: scale(1.1);
     transition: .4s;
 }
 .card-about {
@@ -133,8 +135,9 @@ html, body {
     margin-top: -15;
 }
 .main-text p{
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 35px;
+    font-family: "Poppins", sans-serif;
 }
 .socials{
     text-align: center;
@@ -322,9 +325,6 @@ html, body {
     font-size: 3rem;
     font-weight: 700;
 }
-.gallery-area {
-    padding: 70px 0;
-}
 .main-text-gallery{
     text-transform: uppercase;
     font-weight: 700;
@@ -363,7 +363,6 @@ figure .blockquote-footer {
     background: -webkit-linear-gradient(#394ae225, #37ddb454);
     overflow: hidden;
     border-radius: 2%;
-    margin-top: 25%;
 }
 .info p {
     font-size: 1px;
@@ -392,6 +391,11 @@ figure .blockquote-footer {
     background: -webkit-linear-gradient(#394ae225, #37ddb454);
     border-radius: 10%;
     padding: 5px 20px; 
+}
+.btn1:hover {
+    background-color: rgb(33, 172, 165);
+    transform: scale(1.1);
+    transition: .4s;
 }
 /* End Contact Us Area */
 
