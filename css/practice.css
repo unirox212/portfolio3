@@ -37,10 +37,6 @@
     background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/act-img/homebg.jpg);
     background-size: cover;
 }
-.slideshow {
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
 .d-block {
     width: 100%;
 }
@@ -67,9 +63,6 @@
     color: rgb(20, 20, 20);
     text-align: justify;
 }
-.conan-img {
-    margin-top: 20%;
-}
 
 /* End About Section */
 
@@ -92,12 +85,5 @@
     font-size: 18px;
     color: rgb(20, 20, 20);
     text-align: justify;
-}
-.align-img {
-    margin-top: 45%;
-    margin-bottom: 45%;
-}
-.align-text {
-    margin-top: 13%;
 }
 /* End Alignment Section */
