@@ -235,6 +235,8 @@ html, body {
 }
 .btn:hover {
     background-color: rgb(33, 172, 165);
+    transform: scale(1.1);
+    transition: .4s;
 }
 /* Activity 2 */
 .modal-header{
