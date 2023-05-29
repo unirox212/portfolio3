@@ -297,18 +297,14 @@ figure .blockquote-footer {
     align-items: center;
     text-align: center;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 .section-contact h1 {
     font-size: 2rem;
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
-}
-.section-contact p{
-    font-family: "Poppins", sans-serif;
 }
 .section-contact h2 {
     font-size: 2rem;
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
 }
 .form-group:hover{
@@ -321,8 +317,33 @@ figure .blockquote-footer {
     border-radius: 2%;
     margin-top: 25%;
 }
+.info p {
+    font-size: 1px;
+}
 .text-head {
     margin-bottom: 4%;
+}
+.icon-name {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+.icon i{
+    border: 3px solid;
+    border-radius: 60px;
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+    padding: 12px 13.6px;
+}
+.icon i:hover {
+    transform: scale(1.1);
+    border-color: cyan;
+    color: cyan;
+    transition: .4s;
+}
+.btn1 {
+    border: 1px solid cyan;
+    background: -webkit-linear-gradient(#394ae225, #37ddb454);
+    border-radius: 10%;
+    padding: 5px 20px; 
 }
 /* End Contact Us Area */
 
