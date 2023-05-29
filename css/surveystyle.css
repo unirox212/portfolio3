@@ -15,7 +15,6 @@ body {
     align-items: center;
     text-align: center;
     color: white;
-    margin-top: 5%;
 }
 .form h5 {
     font-size: 2rem;
@@ -53,6 +52,32 @@ body {
 .bg-survey{
     background: rgb(119,201,212);
     background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgb(23, 24, 24) 83%);
+}
+.modal-title {
+    text-align: center;
+}
+
+.modal-header-record{
+    background: rgb(119,201,212);
+    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgba(87,188,144,1) 83%);
+    
+    color: rgb(51, 44, 44);
+}
+.modal-body-record {
+    background: rgb(119,201,212);
+    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgba(87,188,144,1) 83%);
+  
+    color: rgb(51, 44, 44);
+    font-size: 17px;
+}
+.modal-footer-record {
+    background: rgb(119,201,212);
+    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgba(87,188,144,1) 83%);
+    text-align: center;
+}
+.footer {
+    background: rgb(119,201,212);
+    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgba(87,188,144,1) 83%);
 }
 /* End */
 .navbar {
