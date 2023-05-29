@@ -265,6 +265,38 @@ html, body {
     background: rgb(119,201,212);
     background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgb(23, 24, 24) 83%);
 }
+.form {
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.form h5 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.form p{
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+}
+.modal-header-record{
+    background: rgb(119,201,212);
+    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgba(87,188,144,1) 83%);
+    
+    color: rgb(51, 44, 44);
+}
+.modal-body-record {
+    background: rgb(119,201,212);
+    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgba(87,188,144,1) 83%);
+  
+    color: rgb(51, 44, 44);
+    font-size: 17px;
+}
+.modal-footer-record {
+    background: rgb(119,201,212);
+    background: linear-gradient(90deg, rgb(78, 138, 146) 17%, rgba(87,188,144,1) 83%);
+    text-align: center;
+}
 /* End Activities Area */
 
 /* Gallery Area */
